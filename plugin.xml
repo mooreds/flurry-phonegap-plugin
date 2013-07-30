@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
         id="com.phonegap.plugins.flurry"
         version="0.0.1">
     <name>Flurry</name>
@@ -14,6 +15,8 @@
         </config-file>
         <source-file src="src/android/Flurry.java"
                      target-dir="src/com/phonegap/plugins/flurry" />
+        <source-file src="src/android/Flurry_3.2.1.jar"
+                     target-dir="libs" />
     </platform>
 
     <platform name="ios">
@@ -25,6 +28,10 @@
 
         <header-file src="src/ios/CDVFlurry.h" />
         <source-file src="src/ios/CDVFlurry.m" />
+        <source-file src="src/ios/Flurry.h" />
+        <source-file src="src/ios/libFlurry_4.2.2.a" framework="true" />
+
+        <framework src="UIKit.framework" />
     </platform>
 
 </plugin>
