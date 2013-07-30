@@ -5,7 +5,10 @@
         version="0.0.1">
     <name>Flurry</name>
 
-    <js-module src="www/flurry.js" name="Flurry" />
+    <js-module src="www/flurry.js" name="Flurry">
+        <clobbers target="Flurry" />
+    </js-module>
+
 
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
