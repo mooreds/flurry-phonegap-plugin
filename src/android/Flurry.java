@@ -1,4 +1,4 @@
-package com.phonegap.plugins.flurry;
+package com.phonegap.plugins;
 
 import java.util.HashMap;
 import java.util.Iterator;
