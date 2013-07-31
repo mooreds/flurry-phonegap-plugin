@@ -17,7 +17,7 @@
             </feature>
         </config-file>
         <source-file src="src/android/Flurry.java"
-                     target-dir="src/com/phonegap/plugins/flurry" />
+                     target-dir="src/com/phonegap/plugins" />
         <source-file src="src/android/Flurry_3.2.1.jar"
                      target-dir="libs" />
     </platform>
