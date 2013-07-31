@@ -1,5 +1,5 @@
 //
-//  FlurryPhoneGapPlugin.m
+//  CDVFlurry.m
 //  Trailerpop
 //
 //  Created by John Potter on 11/21/12.
@@ -7,10 +7,10 @@
 //
 //
 
-#import "FlurryPhoneGapPlugin.h"
+#import "CDVFlurry.h"
 #import "Flurry.h"
 
-@implementation FlurryPhoneGapPlugin
+@implementation CDVFlurry
 
 - (id)init {
     self = [super init];
