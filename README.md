@@ -1,7 +1,7 @@
 flurry-phonegap-plugin
 ======================
 
-Forked from [jfpsf](https://github.com/jfpsf/flurry-phonegap-plugin)
+Forked from [CarsonF](https://github.com/CarsonF/flurry-phonegap-plugin)
 
 Updated to be installable via plugman/cordova-cli and compatible with cordova 2.9.0.
 
