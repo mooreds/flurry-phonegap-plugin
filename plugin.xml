@@ -32,9 +32,11 @@
         <header-file src="src/ios/CDVFlurry.h" />
         <source-file src="src/ios/CDVFlurry.m" />
         <source-file src="src/ios/Flurry.h" />
-        <source-file src="src/ios/libFlurry_4.2.2.a" framework="true" />
+        <source-file src="src/ios/libFlurry_4.2.3.a" framework="true" />
 
         <framework src="UIKit.framework" />
+        <framework src="Security.framework" />
+        <framework src="AdSupport.framework" />
     </platform>
 
 </plugin>
