@@ -23,6 +23,6 @@ Here's how to install the plugin:
 4. Call the other Flurry methods as appropriate.
 
 =====
-Licensed under the Apache 2.0 license, just like the original fork from [jfpsf](https://github.com/jfpsf/flurry-phonegap-plugin)a
+Licensed under the Apache 2.0 license, just like the original fork from [jfpsf](https://github.com/jfpsf/flurry-phonegap-plugin)
 
 http://www.apache.org/licenses/LICENSE-2.0
