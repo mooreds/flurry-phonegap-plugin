@@ -21,3 +21,8 @@ Here's how to install the plugin:
 2. Install plugin with plugman or cordova-cli: `cordova plugin add https://github.com/8zrealestate/flurry-phonegap-plugin/`
 3. Call `Flurry.startSession()` method, with your app key, after the device is ready (Flurry is injected into the `window` object).
 4. Call the other Flurry methods as appropriate.
+
+=====
+Licensed under the Apache 2.0 license, just like the original fork from [jfpsf](https://github.com/jfpsf/flurry-phonegap-plugin)a
+
+http://www.apache.org/licenses/LICENSE-2.0
