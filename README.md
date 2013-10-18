@@ -17,7 +17,7 @@ in an NSDictionary that only contains strings, and remember that in Objective C 
 
 Here's how to install the plugin:
 
-1. Register with Flurry and get an App key
+1. Register with [Flurry](http://flurry.com/) and get an App key. 
 2. Install plugin with plugman or cordova-cli: `cordova plugin add https://github.com/8zrealestate/flurry-phonegap-plugin/`
 3. Call `Flurry.startSession()` method, with your app key, after the device is ready (Flurry is injected into the `window` object).
 4. Call the other Flurry methods as appropriate.
